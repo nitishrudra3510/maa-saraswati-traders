@@ -1,6 +1,6 @@
-# Maa Saraswati Traders Website
+# Maa Sarswati Traders Website
 
-Welcome to the official website of Maa Saraswati Traders. Click on any of the links below to access different sections of our website.
+Welcome to the official website of Maa Sarswati Traders. Click on any of the links below to access different sections of our website.
 
 ## Quick Links 🔗
 
@@ -36,4 +36,30 @@ https://nitishrudra3510.github.io/maa-saraswati-traders/
 - Premium Cement Brands
 - Steel Rods & Bars (Fe 600)
 - Construction Supplies
-- Agricultural Products 
+- Agricultural Products
+
+## Website Sections
+1. **Home Page**: [View Homepage](https://nitishrudra3510.github.io/maa-saraswati-traders/)
+2. **About Section**: [View About Us](https://nitishrudra3510.github.io/maa-saraswati-traders/#about)
+3. **Products Section**: [View Products](https://nitishrudra3510.github.io/maa-saraswati-traders/#products)
+4. **Gallery Section**: [View Gallery](https://nitishrudra3510.github.io/maa-saraswati-traders/#gallery)
+5. **Contact Section**: [View Contact](https://nitishrudra3510.github.io/maa-saraswati-traders/#contact)
+6. **Login Page**: [View Login](https://nitishrudra3510.github.io/maa-saraswati-traders/auth/login.html)
+7. **Sign Up Page**: [View Sign Up](https://nitishrudra3510.github.io/maa-saraswati-traders/auth/signup.html)
+
+## Repository Structure
+```
+maa-saraswati-traders/
+├── index.html          # Main website file
+├── styles.css          # Website styles
+├── script.js           # Website scripts
+├── auth/               # Authentication pages
+│   ├── login.html      # Login page
+│   └── signup.html     # Sign up page
+└── images/             # Website images
+```
+
+## How to Access
+1. Visit the main website: [https://nitishrudra3510.github.io/maa-saraswati-traders/](https://nitishrudra3510.github.io/maa-saraswati-traders/)
+2. Use the navigation menu to access different sections
+3. For authentication, use the login/signup links in the header 
