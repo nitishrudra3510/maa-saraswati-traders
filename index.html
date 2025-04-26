@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maa Saraswati Traders - Your trusted supplier of Rice, Wheat, Cement, Steel, and Agricultural Products. Quality products at best prices.">
+    <title>Maa Saraswati Traders - Quality Products Supplier</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-[#2C5530] text-white sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <!-- Logo and Company Name -->
+                <div class="flex items-center space-x-2">
+                    <img src="images/logo.png" alt="Maa Saraswati Traders Logo" class="h-12">
+                    <div>
+                        <h1 class="text-xl font-bold">Maa Saraswati Traders</h1>
+                        <p class="text-sm">Quality Products, Trusted Service</p>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="#home" class="hover:text-green-200">Home</a>
+                    <a href="#about" class="hover:text-green-200">About Us</a>
+                    <a href="#products" class="hover:text-green-200">Products</a>
+                    <a href="#gallery" class="hover:text-green-200">Gallery</a>
+                    <a href="#contact" class="hover:text-green-200">Contact</a>
+                    <div class="flex items-center space-x-4">
+                        <a href="auth/login.html" class="hover:text-green-200">
+                            <i class="fas fa-sign-in-alt mr-1"></i> Login
+                        </a>
+                        <a href="auth/signup.html" class="bg-white text-[#2C5530] px-4 py-2 rounded-md hover:bg-green-100">
+                            <i class="fas fa-user-plus mr-1"></i> Sign Up
+                        </a>
+                    </div>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-2xl" id="mobile-menu-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="md:hidden hidden bg-[#2C5530] text-white" id="mobile-menu">
+        <nav class="container mx-auto px-4 py-2">
+            <a href="#home" class="block py-2 hover:text-green-200">Home</a>
+            <a href="#about" class="block py-2 hover:text-green-200">About Us</a>
+            <a href="#products" class="block py-2 hover:text-green-200">Products</a>
+            <a href="#gallery" class="block py-2 hover:text-green-200">Gallery</a>
+            <a href="#contact" class="block py-2 hover:text-green-200">Contact</a>
+            <div class="border-t border-green-700 mt-2 pt-2">
+                <a href="auth/login.html" class="block py-2 hover:text-green-200">
+                    <i class="fas fa-sign-in-alt mr-1"></i> Login
+                </a>
+                <a href="auth/signup.html" class="block py-2 hover:text-green-200">
+                    <i class="fas fa-user-plus mr-1"></i> Sign Up
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative">
+        <div class="h-[600px] relative">
+            <img src="sarswati.jpeg" alt="Maa Saraswati Traders Storefront" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center">
+                <div class="container mx-auto px-4">
+                    <div class="max-w-2xl text-white">
+                        <h2 class="text-4xl md:text-5xl font-bold mb-4">Your Trusted Partner in Quality Products</h2>
+                        <p class="text-xl mb-8">Supplying premium Rice, Wheat, Cement, Steel, and Agricultural Products since 1995</p>
+                        <a href="#contact" class="bg-[#2C5530] hover:bg-[#1E3B21] text-white px-8 py-3 rounded-md inline-block">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">About Maa Saraswati Traders</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Our Story</h3>
+                    <p class="text-gray-600 mb-6">
+                        Maa Saraswati Traders has been a cornerstone in the supply of essential goods since 1995. 
+                        We take pride in our commitment to quality and customer satisfaction, serving both wholesale 
+                        and retail customers with the finest products.
+                    </p>
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="font-semibold text-lg">Our Mission</h4>
+                            <p class="text-gray-600">To deliver quality products at the best prices while maintaining the highest standards of service.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-lg">Our Vision</h4>
+                            <p class="text-gray-600">To support agricultural and construction growth locally and nationally through reliable supply chain solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <img src="images/about-1.jpg" alt="Our Warehouse" class="rounded-lg shadow-lg">
+                    <img src="images/about-2.jpg" alt="Our Team" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Products</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Food Grains -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-4xl text-[#2C5530] mb-4">
+                        <i class="fas fa-wheat-awn"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Food Grains</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>Premium Rice Varieties</li>
+                        <li>Quality Wheat</li>
+                        <li>Organic Grains</li>
+                    </ul>
+                </div>
+
+                <!-- Construction Materials -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-4xl text-[#2C5530] mb-4">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Construction Materials</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>Premium Cement Brands</li>
+                        <li>Steel Rods & Bars</li>
+                        <li>Construction Supplies</li>
+                    </ul>
+                </div>
+
+                <!-- Agricultural Supplies -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-4xl text-[#2C5530] mb-4">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Agricultural Supplies</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>Fertilizers</li>
+                        <li>Quality Seeds</li>
+                        <li>Farming Equipment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Store Gallery</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Main Store Front -->
+                <div class="relative overflow-hidden rounded-lg shadow-lg group">
+                    <img src="entraceMain.jpeg" alt="Maa Saraswati Traders Main Entrance" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-lg font-semibold">Main Store Entrance</p>
+                    </div>
+                </div>
+
+                <!-- Steel Section -->
+                <div class="relative overflow-hidden rounded-lg shadow-lg group">
+                    <img src="d4.jpg" alt="Steel and Iron Section" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-lg font-semibold">Fe 600 Steel Section</p>
+                    </div>
+                </div>
+
+                <!-- Store Display -->
+                <div class="relative overflow-hidden rounded-lg shadow-lg group">
+                    <img src="store.jpg" alt="Store Display Section" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-lg font-semibold">Product Display Area</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-gray-700 mb-2">Name</label>
+                            <input type="text" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#2C5530]">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2">Email</label>
+                            <input type="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#2C5530]">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2">Phone</label>
+                            <input type="tel" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#2C5530]">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2">Message</label>
+                            <textarea class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#2C5530] h-32"></textarea>
+                        </div>
+                        <button type="submit" class="bg-[#2C5530] hover:bg-[#1E3B21] text-white px-8 py-3 rounded-md">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Address</h3>
+                            <p class="text-gray-600">Traupur, Narhat<br>Nawada, Bihar - 805112</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Owner</h3>
+                            <p class="text-gray-600">Satyendra Yadav</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Phone</h3>
+                            <p class="text-gray-600">+91 9661472916</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Email</h3>
+                            <p class="text-gray-600">maasarswatitraders3510@gmail.com</p>
+                        </div>
+                    </div>
+                    <!-- Google Maps -->
+                    <div class="mt-8 h-64 bg-gray-200 rounded-lg">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14477.8257738!2d85.5412!3d24.8867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f0b0b0b0b0b0b0%3A0x0!2sTraupur%2C%20Narhat%2C%20Nawada%2C%20Bihar%20805112!5e0!3m2!1sen!2sin!4v1647887654321!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919661472916" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-[#2C5530] text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-green-200">Home</a></li>
+                        <li><a href="#about" class="hover:text-green-200">About Us</a></li>
+                        <li><a href="#products" class="hover:text-green-200">Products</a></li>
+                        <li><a href="#contact" class="hover:text-green-200">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Products</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-green-200">Food Grains</a></li>
+                        <li><a href="#" class="hover:text-green-200">Construction Materials</a></li>
+                        <li><a href="#" class="hover:text-green-200">Agricultural Supplies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Contact Info</h3>
+                    <ul class="space-y-2">
+                        <li>Traupur, Narhat</li>
+                        <li>Nawada, Bihar - 805112</li>
+                        <li>Phone: +91 9661472916</li>
+                        <li>Email: maasarswatitraders3510@gmail.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-green-200"><i class="fab fa-facebook text-2xl"></i></a>
+                        <a href="#" class="hover:text-green-200"><i class="fab fa-instagram text-2xl"></i></a>
+                        <a href="#" class="hover:text-green-200"><i class="fab fa-twitter text-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-green-700 mt-8 pt-8 text-center">
+                <p>&copy; 2024 Maa Saraswati Traders. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
